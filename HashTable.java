@@ -21,7 +21,7 @@ public class HashTable {
      */
     public boolean mapInsert(String pokemon, String... entry) {
 
-        if (findd(pokemon).equals("Pokemon was not found.")) {
+        if (findd(pokemon).equals("Pokemon was not found")) {
 
             if (Double.compare(loadFactor(), maxLF) <= 0) {
 
