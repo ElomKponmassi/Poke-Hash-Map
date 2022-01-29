@@ -1,6 +1,7 @@
 # Poke-Hash-Map
 Java program that creates a hash table where Pokémon names are matched to their Pokédex entries in &lt;key, value> pairs.
 
+EdKpHash.java is the main file which is to be run.
 The Hash Map is able to add, find, and delete entries. It is also able to print the number of
 Pokemon in the table as well as the current and max load factor.Java’s hashcode is used on the Pokémon names for the hash function.
 
